@@ -1,5 +1,5 @@
 ---
-title: "School_Project"
+title: "Seneca School Project"
 layout: archive
 permalink: categories/schoolproject
 author_profile: true

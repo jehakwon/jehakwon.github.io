@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "University of Toronto Cyber Security BootCamp Project (02): Penetration Test Report - MegaCorpOne"
+title:  "BootCamp Project (02): Penetration Test Report - MegaCorpOne"
 
 categories:
     - Bootcamp_Project

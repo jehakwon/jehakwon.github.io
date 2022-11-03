@@ -1,0 +1,45 @@
+I"�<!-- 공백이 포함되어 있는 카테고리 이름의 경우 site.categories.['a b c'] 이런식으로! -->
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/bootcamp_project/bootcampproject01/">BootCamp Project (01): Azure Cloud Web Application &amp; Safe Network Infra Structure</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2016.09.18
+              
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/bootcamp_project/bootcampproject02/">BootCamp Project (02): Penetration Test Report - MegaCorpOne</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2016.10.16
+              
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/bootcamp_project/bootcampproject03/">University of Toronto Cyber Security BootCamp Project (03): Penetration Test Report - Rekall Corporation</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2016.10.23
+              
+            </small>
+        </div>
+      </article>
+</div>
+
+:ET

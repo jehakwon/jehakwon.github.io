@@ -4,8 +4,6 @@ main:
     url: /index.html
   - title: "About Me"
     url: documents/aboutme
-  - title: "Portfolio"
-    url: categories/portfolio
   - title: "Category"
     url: /categories/
   

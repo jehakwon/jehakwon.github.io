@@ -5,19 +5,19 @@ var store = [{
         "url": "/school_project/schoolproject01/",
         "teaser": null
       },{
-        "title": "University of Toronto Cyber Security BootCamp Project (01): Azure Cloud Web Application & Safe Network Infra Structure",
+        "title": "BootCamp Project (01): Azure Cloud Web Application & Safe Network Infra Structure",
         "excerpt":"Project Information     Project Name: Azure Cloud Web Application &amp; Safe Network Infra Structure   Date: September 18, 2022   Description: Build Web application site and safe network infra structure using “WAF rules” and “Azure Front Door”   Document:               ","categories": ["Bootcamp_Project"],
         "tags": ["Portfolio","Bootcamp_Project","Project"],
         "url": "/bootcamp_project/bootcampproject01/",
         "teaser": null
       },{
-        "title": "University of Toronto Cyber Security BootCamp Project (02): Penetration Test Report - MegaCorpOne",
+        "title": "BootCamp Project (02): Penetration Test Report - MegaCorpOne",
         "excerpt":"Project Information     Project Name: Penetration Test Report - MegaCorpOne   Date: October 16, 2022   Description: Perform penetration test on “MegaCorpOne” website and write penetration testing report   Document:                   ","categories": ["Bootcamp_Project"],
         "tags": ["Portfolio","Bootcamp_Project","Project"],
         "url": "/bootcamp_project/bootcampproject02/",
         "teaser": null
       },{
-        "title": "University of Toronto Cyber Security BootCamp Project (03): Penetration Test Report - Rekall Corporation",
+        "title": "BootCamp Project (03): Penetration Test Report - Rekall Corporation",
         "excerpt":"Project Information     Project Name: Penetration Test Report - Rekall Corporation   Date: October 23, 2022   Description: Perform penetration test on “Rekall Corporation” website and write penetration testing report   Document:                      ","categories": ["Bootcamp_Project"],
         "tags": ["Portfolio","Bootcamp_Project","Project"],
         "url": "/bootcamp_project/bootcampproject03/",

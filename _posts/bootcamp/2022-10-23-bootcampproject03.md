@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "University of Toronto Cyber Security BootCamp Project (03): Penetration Test Report - Rekall Corporation"
+title:  "BootCamp Project (03): Penetration Test Report - Rekall Corporation"
 
 categories:
     - Bootcamp_Project

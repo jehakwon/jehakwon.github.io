@@ -103,8 +103,8 @@ analytics:
 # Site Author
 author:
   name             : "Jeha Kwon"
-  avatar           : "https://user-images.githubusercontent.com/116617643/197681442-b1d55499-4b1d-42b4-8970-42c0431e100f.jpg"
-  bio              : "Let it be"
+  avatar           : #"https://user-images.githubusercontent.com/116617643/197681442-b1d55499-4b1d-42b4-8970-42c0431e100f.jpg"
+  bio              : "Cyber Security"
   location         : "Canada"
   email            : #"email@email.com"
   links:

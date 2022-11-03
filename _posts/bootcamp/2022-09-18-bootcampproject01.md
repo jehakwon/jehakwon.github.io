@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "University of Toronto Cyber Security BootCamp Project (01): Azure Cloud Web Application & Safe Network Infra Structure"
+title:  "BootCamp Project (01): Azure Cloud Web Application & Safe Network Infra Structure"
 
 categories:
     - Bootcamp_Project

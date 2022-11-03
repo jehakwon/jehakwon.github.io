@@ -15,10 +15,11 @@ Welcome to my personal portfolio website.
 Purpose of this website is to show my portfolio online.  
 Please do not copy any content.
 
-# Brief summery of my self
+# Brief summery of myself
 Dedicated and hardworking, Graduated computer engineering technology at Seneca College in 2016. Worked as software quality assurance engineer in Samsung Electronics Canada. Constantly seek out new materials and always work hard to finish the project. Very fast learner, willing to learn any new materials. Team Player and capable of managing stressful work with fast phase.
 Strengths in computer and engineering.
 
 # Contact Information
 Email: jehakwon@gmail.com  
-Linkedin: [www.linkedin.com/in/jehakwon](https://www.linkedin.com/in/jehakwon)
+Linkedin: [www.linkedin.com/in/jehakwon](https://www.linkedin.com/in/jehakwon)  
+Personal Blog: [www.dpgbdg.com](https://dpgbdg.com)

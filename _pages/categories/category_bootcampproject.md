@@ -1,5 +1,5 @@
 ---
-title: "Bootcamp_Project"
+title: "UofT Cyber Security Bootcamp Project"
 layout: archive
 permalink: categories/bootcampproject
 author_profile: true
