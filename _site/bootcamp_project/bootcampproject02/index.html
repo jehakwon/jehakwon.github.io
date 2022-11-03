@@ -1,0 +1,583 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>University of Toronto Cyber Security BootCamp Project (02): Penetration Test Report - MegaCorpOne - Jeha Kwon Blog</title>
+<meta name="description" content="Project Information    Project Name: Penetration Test Report - MegaCorpOne   Date: October 16, 2022   Description: Perform penetration test on “MegaCorpOne” website and write penetration testing report   Document:">
+
+
+  <meta name="author" content="Jeha Kwon">
+  
+  <meta property="article:author" content="Jeha Kwon">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Jeha Kwon Blog">
+<meta property="og:title" content="University of Toronto Cyber Security BootCamp Project (02): Penetration Test Report - MegaCorpOne">
+<meta property="og:url" content="http://localhost:4000/bootcamp_project/bootcampproject02/">
+
+
+  <meta property="og:description" content="Project Information    Project Name: Penetration Test Report - MegaCorpOne   Date: October 16, 2022   Description: Perform penetration test on “MegaCorpOne” website and write penetration testing report   Document:">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2016-10-16T00:00:00-04:00">
+
+
+
+  <meta property="article:modified_time" content="2016-10-16T00:00:00-04:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/bootcamp_project/bootcampproject02/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Jeha Kwon",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Jeha Kwon Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Jeha Kwon Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/index.html">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/documents/aboutme">About Me</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/portfolio">Portfolio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Category</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="https://user-images.githubusercontent.com/116617643/197681442-b1d55499-4b1d-42b4-8970-42c0431e100f.jpg" alt="Jeha Kwon" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Jeha Kwon</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Let it be</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Canada</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:jehakwon@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+  
+
+  
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">Total</style> <span style="font-family:'Coming Soon';">5</style> <span style="font-family:'Cafe24Oneprettynight';">Posts</style> 
+      </li>
+      <li>
+        <!-- span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <!-- ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+        <!-- Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+        <!-- category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+        <!-- <span class="nav__sub-title">Blog Coding Test</span> 큰 메뉴 만들기-->
+            <span class="nav__sub-title">Portfolio</span>
+                <ul>
+                    
+                        
+                            <li><a href="/categories/schoolproject" class="">Seneca School Project (1)</a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul> 
+                <ul>
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/bootcampproject" class="">UofT Cyber Security Bootcamp Project (3)</a></li>
+                        
+                    
+                        
+                    
+                </ul> 
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/pentestproject" class="">Penetration Test Project (1)</a></li>
+                        
+                    
+                </ul> 
+        </li>
+  </ul>
+</nav>
+    
+
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="University of Toronto Cyber Security BootCamp Project (02): Penetration Test Report - MegaCorpOne">
+    <meta itemprop="description" content="Project Information  Project Name: Penetration Test Report - MegaCorpOne  Date: October 16, 2022  Description: Perform penetration test on “MegaCorpOne” website and write penetration testing report  Document:">
+    <meta itemprop="datePublished" content="2016-10-16T00:00:00-04:00">
+    <meta itemprop="dateModified" content="2016-10-16T00:00:00-04:00">
+
+    <div class="page__inner-wrap">
+      
+      <header>
+        <h1 id="page-title" class="page__title" itemprop="headline">University of Toronto Cyber Security BootCamp Project (02): Penetration Test Report - MegaCorpOne
+</h1>
+        
+          <p class="page__meta"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time datetime="2016-10-16T00:00:00-04:00">2016.10.16</time>&nbsp&nbsp&nbsp<strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2016-10-16">2016.10.16</time></p>
+        
+      </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#project-information">Project Information</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h1 id="project-information">Project Information</h1>
+<ul>
+  <li>Project Name: Penetration Test Report - MegaCorpOne</li>
+  <li>Date: October 16, 2022</li>
+  <li>Description: Perform penetration test on “MegaCorpOne” website and write penetration testing report</li>
+  <li>Document:<br />
+<img src="https://user-images.githubusercontent.com/116617643/199630946-f8ca2662-b90d-4121-974f-336c03c92478.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_1" />
+<img src="https://user-images.githubusercontent.com/116617643/199630947-f10f15d4-94d7-4d73-ad7e-e56bcec0b2bd.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_2" />
+<img src="https://user-images.githubusercontent.com/116617643/199630948-478a0c12-d7a2-4516-9e46-a05778e57a0f.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_3" />
+<img src="https://user-images.githubusercontent.com/116617643/199630949-e3e88ffb-6d1a-4832-bca7-6904d68c2cd7.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_4" />
+<img src="https://user-images.githubusercontent.com/116617643/199630950-4844cf45-2586-40fb-9c55-205b6c77970e.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_5" />
+<img src="https://user-images.githubusercontent.com/116617643/199630951-5b208df7-1820-4f61-8aed-ee2933e89ae7.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_6" />
+<img src="https://user-images.githubusercontent.com/116617643/199630953-379c00eb-2fee-4d2b-9c2f-4818440b412f.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_7" />
+<img src="https://user-images.githubusercontent.com/116617643/199630933-5f8aa9d0-49c9-4f2b-b939-e5e03b049393.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_8" />
+<img src="https://user-images.githubusercontent.com/116617643/199630936-da05f757-2df2-4afc-a8f6-f57806b83585.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_9" />
+<img src="https://user-images.githubusercontent.com/116617643/199630938-d8a8ef57-8db4-4747-b201-424961a6a06f.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_10" />
+<img src="https://user-images.githubusercontent.com/116617643/199630939-38a42e54-9e24-49a1-9239-5ed88567b92b.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_11" />
+<img src="https://user-images.githubusercontent.com/116617643/199630940-bc10df86-85f5-4e88-9f88-5349ae2db4ca.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_12" />
+<img src="https://user-images.githubusercontent.com/116617643/199630941-949c046c-a040-4ae0-b489-b28c7bf46d81.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_13" />
+<img src="https://user-images.githubusercontent.com/116617643/199630943-bea32d5f-0926-466e-8869-46e416eda642.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_14" />
+<img src="https://user-images.githubusercontent.com/116617643/199630944-ecfc1e58-fab7-493e-9157-36368a9f7365.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_15" />
+<img src="https://user-images.githubusercontent.com/116617643/199630945-8e77b701-d1b6-4823-a86f-7127bbc6c8bf.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_16" /></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#bootcamp-project" class="page__taxonomy-item p-category" rel="tag">Bootcamp_Project</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#bootcamp-project" class="page__taxonomy-item p-category" rel="tag">Bootcamp_Project</a><span class="sep">, </span>
+    
+      <a href="/tags/#portfolio" class="page__taxonomy-item p-category" rel="tag">Portfolio</a><span class="sep">, </span>
+    
+      <a href="/tags/#project" class="page__taxonomy-item p-category" rel="tag">Project</a>
+    
+    </span>
+  </p>
+
+
+
+        
+      </footer>
+
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/bootcamp_project/bootcampproject01/" class="pagination--pager" title="University of Toronto Cyber Security BootCamp Project (01): Azure Cloud Web Application &amp; Safe Network Infra Structure
+">Previous</a>
+    
+    
+      <a href="/bootcamp_project/bootcampproject03/" class="pagination--pager" title="University of Toronto Cyber Security BootCamp Project (03): Penetration Test Report - Rekall Corporation
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">Latest Posts</h4>
+        
+          
+
+
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/pentest_project/penetrationproject01/">Penetration Testing Project (01): SQL Injection</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.02
+              
+            </small>
+        </div>
+      </article>
+</div>
+        
+          
+
+
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/bootcamp_project/bootcampproject03/">University of Toronto Cyber Security BootCamp Project (03): Penetration Test Report - Rekall Corporation</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2016.10.23
+              
+            </small>
+        </div>
+      </article>
+</div>
+        
+          
+
+
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/bootcamp_project/bootcampproject01/">University of Toronto Cyber Security BootCamp Project (01): Azure Cloud Web Application & Safe Network Infra Structure</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2016.09.18
+              
+            </small>
+        </div>
+      </article>
+</div>
+        
+          
+
+
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/school_project/schoolproject01/">School Project (01): Observer - Remote Control Car</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2016.04.08
+              
+            </small>
+        </div>
+      </article>
+</div>
+        
+    </div>
+  
+  
+</div>
+
+
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Jeha Kwon. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

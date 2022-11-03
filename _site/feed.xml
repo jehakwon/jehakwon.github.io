@@ -1,3 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-25T00:20:47-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">DPGBDG Blog</title><subtitle>Daily Blog &amp; Portfolio &amp; Study Material</subtitle><author><name>DPG BDG</name></author><entry><title type="html">Personal Portfolio (01):</title><link href="http://localhost:4000/portfolio/portfolio0001/" rel="alternate" type="text/html" title="Personal Portfolio (01):" /><published>2022-10-25T00:00:00-04:00</published><updated>2022-10-25T00:00:00-04:00</updated><id>http://localhost:4000/portfolio/portfolio0001</id><content type="html" xml:base="http://localhost:4000/portfolio/portfolio0001/"><![CDATA[<h1 id="tbd">TBD</h1>
-
-<h1 id="references">References</h1>]]></content><author><name>DPG BDG</name></author><category term="Portfolio" /><category term="Portfolio" /><category term="Project" /><category term="Website" /><summary type="html"><![CDATA[TBD]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-02T22:04:43-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jeha Kwon Blog</title><subtitle>Portfolio &amp; Projects</subtitle><author><name>Jeha Kwon</name></author><entry><title type="html">Penetration Testing Project (01): SQL Injection</title><link href="http://localhost:4000/pentest_project/penetrationproject01/" rel="alternate" type="text/html" title="Penetration Testing Project (01): SQL Injection" /><published>2022-11-02T00:00:00-04:00</published><updated>2022-11-02T00:00:00-04:00</updated><id>http://localhost:4000/pentest_project/penetrationproject01</id><content type="html" xml:base="http://localhost:4000/pentest_project/penetrationproject01/"><![CDATA[<h1 id="project-information">Project Information</h1>
+<ul>
+  <li>Project Name: Penetration Test - SQL Injection</li>
+  <li>Date: November 02, 2022</li>
+  <li>Description: Create Simple 5 different type of Login Website and perform 5 different SQL injections</li>
+  <li>Document:
+    <ul>
+      <li>Data Base Connection
+<img src="https://user-images.githubusercontent.com/116617643/199633628-8ebfeba0-3ccb-476f-aa0b-6ba0f0366617.png" alt="db_connection" /></li>
+      <li>Type 1 = Identification and authentication Together<br />
+<img src="https://user-images.githubusercontent.com/116617643/199633622-556fa6a8-8633-4f50-b6cc-5d0bbb2d4ecd.png" alt="SQL_Injection_Type_1" /></li>
+      <li>Type 2 = Identification and authentication Separate
+<img src="https://user-images.githubusercontent.com/116617643/199633623-02bdb58a-2971-4dbf-b7ec-be8d7312438f.png" alt="SQL_Injection_Type_2" /></li>
+      <li>Type 3 = Identification and authentication Together + HASH Password<br />
+<img src="https://user-images.githubusercontent.com/116617643/199633625-de5e6294-fc8c-45e7-af5d-941f3901df07.png" alt="SQL_Injection_Type_3" /></li>
+      <li>Type 4 = Identification and authentication Separate + HASH Password
+<img src="https://user-images.githubusercontent.com/116617643/199633626-7106d738-78fc-4d9b-8537-7e45774e8815.png" alt="SQL_Injection_Type_4" /></li>
+      <li>Type 5 = Identification and authentication Together + New Line Method<br />
+<img src="https://user-images.githubusercontent.com/116617643/199633627-cca1abf6-583b-4e79-bac5-2c39ec7d20d5.png" alt="SQL_Injection_Type_5" /></li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Jeha Kwon</name></author><category term="Pentest_Project" /><category term="Portfolio" /><category term="Pentest_Project" /><category term="Project" /><summary type="html"><![CDATA[Project Information Project Name: Penetration Test - SQL Injection Date: November 02, 2022 Description: Create Simple 5 different type of Login Website and perform 5 different SQL injections Document: Data Base Connection Type 1 = Identification and authentication Together Type 2 = Identification and authentication Separate Type 3 = Identification and authentication Together + HASH Password Type 4 = Identification and authentication Separate + HASH Password Type 5 = Identification and authentication Together + New Line Method]]></summary></entry><entry><title type="html">University of Toronto Cyber Security BootCamp Project (03): Penetration Test Report - Rekall Corporation</title><link href="http://localhost:4000/bootcamp_project/bootcampproject03/" rel="alternate" type="text/html" title="University of Toronto Cyber Security BootCamp Project (03): Penetration Test Report - Rekall Corporation" /><published>2016-10-23T00:00:00-04:00</published><updated>2016-10-23T00:00:00-04:00</updated><id>http://localhost:4000/bootcamp_project/bootcampproject03</id><content type="html" xml:base="http://localhost:4000/bootcamp_project/bootcampproject03/"><![CDATA[<h1 id="project-information">Project Information</h1>
+<ul>
+  <li>Project Name: Penetration Test Report - Rekall Corporation</li>
+  <li>Date: October 23, 2022</li>
+  <li>Description: Perform penetration test on “Rekall Corporation” website and write penetration testing report</li>
+  <li>Document:<br />
+<img src="https://user-images.githubusercontent.com/116617643/199632461-37e301da-e6c3-4b90-b905-502928734f89.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_1" />
+<img src="https://user-images.githubusercontent.com/116617643/199632462-6e1e0e39-a798-4778-ae50-a776733b9c3c.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_2" />
+<img src="https://user-images.githubusercontent.com/116617643/199632463-5aa43a92-f53e-40e4-9b09-ad39e03635c1.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_3" />
+<img src="https://user-images.githubusercontent.com/116617643/199632464-36f04e23-2907-40fa-abbf-8caefb89476c.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_4" />
+<img src="https://user-images.githubusercontent.com/116617643/199632466-b4568fca-8d9d-4b96-ad64-13ac0820499e.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_5" />
+<img src="https://user-images.githubusercontent.com/116617643/199632467-67d3de7a-c4bc-4822-b78c-9d61a473353e.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_6" />
+<img src="https://user-images.githubusercontent.com/116617643/199632468-f4abb973-7db5-4414-aaf5-6d98e133019c.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_7" />
+<img src="https://user-images.githubusercontent.com/116617643/199632442-b0025a3d-5ba8-49ae-83ba-ae17c0188fbe.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_8" />
+<img src="https://user-images.githubusercontent.com/116617643/199632443-3005d11b-56f5-4e70-93a4-6a87eabef6d3.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_9" />
+<img src="https://user-images.githubusercontent.com/116617643/199632444-4a09815b-a428-457b-8e71-390e12d3d7a9.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_10" />
+<img src="https://user-images.githubusercontent.com/116617643/199632447-84b45c9e-4ccc-43d8-9061-00b5d4f2d10a.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_11" />
+<img src="https://user-images.githubusercontent.com/116617643/199632448-ea144085-b212-4db0-8937-7c3619ee4b2f.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_12" />
+<img src="https://user-images.githubusercontent.com/116617643/199632449-72239fbd-bcc6-4639-9a69-9c2467403d1b.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_13" />
+<img src="https://user-images.githubusercontent.com/116617643/199632451-1e60b31c-2eae-44a5-9f5b-f3657da2c973.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_14" />
+<img src="https://user-images.githubusercontent.com/116617643/199632452-f1efda2e-dc4c-4e65-9905-e54892e66788.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_15" />
+<img src="https://user-images.githubusercontent.com/116617643/199632453-0a0d7a18-7efc-4512-9cdd-6c8993fb308a.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_16" />
+<img src="https://user-images.githubusercontent.com/116617643/199632456-cc770c37-512d-4df8-ab9e-454c490c95a9.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_17" />
+<img src="https://user-images.githubusercontent.com/116617643/199632458-e296f984-8a9f-4815-8b34-047e29ec6c71.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_18" />
+<img src="https://user-images.githubusercontent.com/116617643/199632460-c33449f5-7837-457d-aa01-d34fee89f638.png" alt="Project_3 Jeha_Kwon_Penetration_Test_Report-Rekall_Corporation1024_19" /></li>
+</ul>]]></content><author><name>Jeha Kwon</name></author><category term="Bootcamp_Project" /><category term="Portfolio" /><category term="Bootcamp_Project" /><category term="Project" /><summary type="html"><![CDATA[Project Information Project Name: Penetration Test Report - Rekall Corporation Date: October 23, 2022 Description: Perform penetration test on “Rekall Corporation” website and write penetration testing report Document:]]></summary></entry><entry><title type="html">University of Toronto Cyber Security BootCamp Project (02): Penetration Test Report - MegaCorpOne</title><link href="http://localhost:4000/bootcamp_project/bootcampproject02/" rel="alternate" type="text/html" title="University of Toronto Cyber Security BootCamp Project (02): Penetration Test Report - MegaCorpOne" /><published>2016-10-16T00:00:00-04:00</published><updated>2016-10-16T00:00:00-04:00</updated><id>http://localhost:4000/bootcamp_project/bootcampproject02</id><content type="html" xml:base="http://localhost:4000/bootcamp_project/bootcampproject02/"><![CDATA[<h1 id="project-information">Project Information</h1>
+<ul>
+  <li>Project Name: Penetration Test Report - MegaCorpOne</li>
+  <li>Date: October 16, 2022</li>
+  <li>Description: Perform penetration test on “MegaCorpOne” website and write penetration testing report</li>
+  <li>Document:<br />
+<img src="https://user-images.githubusercontent.com/116617643/199630946-f8ca2662-b90d-4121-974f-336c03c92478.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_1" />
+<img src="https://user-images.githubusercontent.com/116617643/199630947-f10f15d4-94d7-4d73-ad7e-e56bcec0b2bd.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_2" />
+<img src="https://user-images.githubusercontent.com/116617643/199630948-478a0c12-d7a2-4516-9e46-a05778e57a0f.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_3" />
+<img src="https://user-images.githubusercontent.com/116617643/199630949-e3e88ffb-6d1a-4832-bca7-6904d68c2cd7.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_4" />
+<img src="https://user-images.githubusercontent.com/116617643/199630950-4844cf45-2586-40fb-9c55-205b6c77970e.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_5" />
+<img src="https://user-images.githubusercontent.com/116617643/199630951-5b208df7-1820-4f61-8aed-ee2933e89ae7.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_6" />
+<img src="https://user-images.githubusercontent.com/116617643/199630953-379c00eb-2fee-4d2b-9c2f-4818440b412f.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_7" />
+<img src="https://user-images.githubusercontent.com/116617643/199630933-5f8aa9d0-49c9-4f2b-b939-e5e03b049393.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_8" />
+<img src="https://user-images.githubusercontent.com/116617643/199630936-da05f757-2df2-4afc-a8f6-f57806b83585.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_9" />
+<img src="https://user-images.githubusercontent.com/116617643/199630938-d8a8ef57-8db4-4747-b201-424961a6a06f.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_10" />
+<img src="https://user-images.githubusercontent.com/116617643/199630939-38a42e54-9e24-49a1-9239-5ed88567b92b.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_11" />
+<img src="https://user-images.githubusercontent.com/116617643/199630940-bc10df86-85f5-4e88-9f88-5349ae2db4ca.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_12" />
+<img src="https://user-images.githubusercontent.com/116617643/199630941-949c046c-a040-4ae0-b489-b28c7bf46d81.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_13" />
+<img src="https://user-images.githubusercontent.com/116617643/199630943-bea32d5f-0926-466e-8869-46e416eda642.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_14" />
+<img src="https://user-images.githubusercontent.com/116617643/199630944-ecfc1e58-fab7-493e-9157-36368a9f7365.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_15" />
+<img src="https://user-images.githubusercontent.com/116617643/199630945-8e77b701-d1b6-4823-a86f-7127bbc6c8bf.png" alt="Project_2 Jeha_Kwon_Penetration_Test_Report-MegaCorpOne1024_16" /></li>
+</ul>]]></content><author><name>Jeha Kwon</name></author><category term="Bootcamp_Project" /><category term="Portfolio" /><category term="Bootcamp_Project" /><category term="Project" /><summary type="html"><![CDATA[Project Information Project Name: Penetration Test Report - MegaCorpOne Date: October 16, 2022 Description: Perform penetration test on “MegaCorpOne” website and write penetration testing report Document:]]></summary></entry><entry><title type="html">University of Toronto Cyber Security BootCamp Project (01): Azure Cloud Web Application &amp;amp; Safe Network Infra Structure</title><link href="http://localhost:4000/bootcamp_project/bootcampproject01/" rel="alternate" type="text/html" title="University of Toronto Cyber Security BootCamp Project (01): Azure Cloud Web Application &amp;amp; Safe Network Infra Structure" /><published>2016-09-18T00:00:00-04:00</published><updated>2016-09-18T00:00:00-04:00</updated><id>http://localhost:4000/bootcamp_project/bootcampproject01</id><content type="html" xml:base="http://localhost:4000/bootcamp_project/bootcampproject01/"><![CDATA[<h1 id="project-information">Project Information</h1>
+<ul>
+  <li>Project Name: Azure Cloud Web Application &amp; Safe Network Infra Structure</li>
+  <li>Date: September 18, 2022</li>
+  <li>Description: Build Web application site and safe network infra structure using “WAF rules” and “Azure Front Door”</li>
+  <li>Document:<br />
+<img src="https://user-images.githubusercontent.com/102259339/199630616-e6d00dbe-4a7e-4fdf-bd46-75a667bbd64e.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_1" />
+<img src="https://user-images.githubusercontent.com/102259339/199630617-8b3f6fe5-ad2a-411c-be4e-d85377a4a981.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_2" />
+<img src="https://user-images.githubusercontent.com/102259339/199630618-fd7ef776-c331-4621-a6e0-3b59a5276e79.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_3" />
+<img src="https://user-images.githubusercontent.com/102259339/199630606-a25f0641-657b-4dea-9115-1e0f6cd9a308.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_4" />
+<img src="https://user-images.githubusercontent.com/102259339/199630607-1736a096-9588-4ec2-b3b6-9b3053ac3e0e.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_5" />
+<img src="https://user-images.githubusercontent.com/102259339/199630608-867472fd-630a-4ab5-b0d7-f01b04480071.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_6" />
+<img src="https://user-images.githubusercontent.com/102259339/199630610-9036ee56-a8ca-429b-abfa-03942c365282.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_7" />
+<img src="https://user-images.githubusercontent.com/102259339/199630611-985b6469-82d3-4e0a-a368-48174ffcafe0.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_8" />
+<img src="https://user-images.githubusercontent.com/102259339/199630612-21079d0f-9e51-4b36-9c0a-db34dfc4c3b2.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_9" />
+<img src="https://user-images.githubusercontent.com/102259339/199630613-6694ace4-d407-488b-8f43-247e15159f99.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_10" />
+<img src="https://user-images.githubusercontent.com/102259339/199630614-892783cd-3094-44f1-9479-839646d5a0d3.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_11" />
+<img src="https://user-images.githubusercontent.com/102259339/199630615-93371179-1fc2-49c1-9833-078890b0d9a4.png" alt="Project_1 Jeha_Kwon_Cloud_Web_Application1024_12" /></li>
+</ul>]]></content><author><name>Jeha Kwon</name></author><category term="Bootcamp_Project" /><category term="Portfolio" /><category term="Bootcamp_Project" /><category term="Project" /><summary type="html"><![CDATA[Project Information Project Name: Azure Cloud Web Application &amp; Safe Network Infra Structure Date: September 18, 2022 Description: Build Web application site and safe network infra structure using “WAF rules” and “Azure Front Door” Document:]]></summary></entry><entry><title type="html">School Project (01): Observer - Remote Control Car</title><link href="http://localhost:4000/school_project/schoolproject01/" rel="alternate" type="text/html" title="School Project (01): Observer - Remote Control Car" /><published>2016-04-08T00:00:00-04:00</published><updated>2016-04-08T00:00:00-04:00</updated><id>http://localhost:4000/school_project/schoolproject01</id><content type="html" xml:base="http://localhost:4000/school_project/schoolproject01/"><![CDATA[<h1 id="project-information">Project Information</h1>
+<ul>
+  <li>Project Name: Observer - Remote Control Car</li>
+  <li>Date: April 08, 2016</li>
+  <li>Description: Controllable wireless car with video streaming capable</li>
+  <li>Video:
+    <iframe width="1268" height="713" src="https://www.youtube.com/embed/zPD6QjUFIXw" title="School Project - Jeha Kwon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  </li>
+  <li>Document:<br />
+<img src="https://user-images.githubusercontent.com/102259339/199627984-3953c2db-1b81-4c3b-9fca-5c2cb49e0d5d.png" alt="Final_Project_Report  Jeha Kwon1024_1" />
+<img src="https://user-images.githubusercontent.com/102259339/199627985-930b4c9a-b391-48e6-a791-9e28eaeb7e7a.png" alt="Final_Project_Report  Jeha Kwon1024_2" />
+<img src="https://user-images.githubusercontent.com/102259339/199627987-62e7ded3-4c6b-4dd7-92f3-e04aeedf20d3.png" alt="Final_Project_Report  Jeha Kwon1024_3" />
+<img src="https://user-images.githubusercontent.com/102259339/199627989-24131618-8388-445e-a23d-9c03546f2274.png" alt="Final_Project_Report  Jeha Kwon1024_4" />
+<img src="https://user-images.githubusercontent.com/102259339/199627990-e23588a4-b783-481e-a81b-562d877fce68.png" alt="Final_Project_Report  Jeha Kwon1024_5" />
+<img src="https://user-images.githubusercontent.com/102259339/199627991-35e139f3-a0bd-4772-adca-55f10c7fabaf.png" alt="Final_Project_Report  Jeha Kwon1024_6" />
+<img src="https://user-images.githubusercontent.com/102259339/199627992-ab4f3518-f235-476f-875c-1f06016af259.png" alt="Final_Project_Report  Jeha Kwon1024_7" />
+<img src="https://user-images.githubusercontent.com/102259339/199627994-56d56194-09d5-405a-b6f0-eb24c6b159b1.png" alt="Final_Project_Report  Jeha Kwon1024_8" />
+<img src="https://user-images.githubusercontent.com/102259339/199627997-f2534a34-0a5b-4ecd-99ad-d564921665be.png" alt="Final_Project_Report  Jeha Kwon1024_9" />
+<img src="https://user-images.githubusercontent.com/102259339/199627999-807c072a-1924-4e4e-93dc-9b0c5dee81ea.png" alt="Final_Project_Report  Jeha Kwon1024_10" />
+<img src="https://user-images.githubusercontent.com/102259339/199628000-12f97d94-b35a-4058-aa09-e56d82d2e35b.png" alt="Final_Project_Report  Jeha Kwon1024_11" />
+<img src="https://user-images.githubusercontent.com/102259339/199628002-ae6735f4-2f43-4746-861b-070f943fe1f5.png" alt="Final_Project_Report  Jeha Kwon1024_12" />
+<img src="https://user-images.githubusercontent.com/102259339/199627971-8f6ed225-5407-4006-8e59-84c08f9d94f6.png" alt="Final_Project_Report  Jeha Kwon1024_13" />
+<img src="https://user-images.githubusercontent.com/102259339/199627972-89a0074f-92a6-4937-8cc1-faa7dbc39afa.png" alt="Final_Project_Report  Jeha Kwon1024_14" />
+<img src="https://user-images.githubusercontent.com/102259339/199627973-775ba65d-483d-4a13-b107-61f3c3d67dae.png" alt="Final_Project_Report  Jeha Kwon1024_15" />
+<img src="https://user-images.githubusercontent.com/102259339/199627975-c41ba43d-8856-44a6-94e6-6e81f5d5c28f.png" alt="Final_Project_Report  Jeha Kwon1024_16" />
+<img src="https://user-images.githubusercontent.com/102259339/199627977-503da540-d824-44cf-9a03-48e74be8c791.png" alt="Final_Project_Report  Jeha Kwon1024_17" />
+<img src="https://user-images.githubusercontent.com/102259339/199627979-2a51d049-c89e-4f7f-b64d-b1abe71f4343.png" alt="Final_Project_Report  Jeha Kwon1024_18" />
+<img src="https://user-images.githubusercontent.com/102259339/199627980-eb38bc0d-633c-483e-9f73-bd1b5562f6e3.png" alt="Final_Project_Report  Jeha Kwon1024_19" />
+<img src="https://user-images.githubusercontent.com/102259339/199627982-7b789103-e8da-404c-9744-f54c979770c6.png" alt="Final_Project_Report  Jeha Kwon1024_20" />
+<img src="https://user-images.githubusercontent.com/102259339/199627983-9a0dc260-f803-4704-9c09-e106de1c3a77.png" alt="Final_Project_Report  Jeha Kwon1024_21" /></li>
+</ul>]]></content><author><name>Jeha Kwon</name></author><category term="School_Project" /><category term="Portfolio" /><category term="School_Project" /><category term="Project" /><summary type="html"><![CDATA[Project Information Project Name: Observer - Remote Control Car Date: April 08, 2016 Description: Controllable wireless car with video streaming capable Video: Document:]]></summary></entry></feed>
