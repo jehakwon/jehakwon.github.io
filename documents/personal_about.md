@@ -16,7 +16,8 @@ Purpose of this website is to show my portfolio online.
 Please do not copy any content.
 
 # Brief summery of my self
-Resourceful professional, promoting memorable experiences. A team player offering a dynamic personality and an extensive background working in the restaurant and food service industry. Aptitude for maintaining composure, positive attitude and focus during stressful times. Willingness to learn on and off the job in the ever progressing tech industry. Eager to join forces with a multi-faceted and progressive organization.
+Dedicated and hardworking, Graduated computer engineering technology at Seneca College in 2016. Worked as software quality assurance engineer in Samsung Electronics Canada. Constantly seek out new materials and always work hard to finish the project. Very fast learner, willing to learn any new materials. Team Player and capable of managing stressful work with fast phase.
+Strengths in computer and engineering.
 
 # Contact Information
 Email: jehakwon@gmail.com  
