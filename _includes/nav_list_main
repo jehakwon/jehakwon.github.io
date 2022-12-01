@@ -19,18 +19,18 @@
             <span class="nav__sub-title">Portfolio</span>
                 <ul>
                     {% for category in site.categories %}
-                        {% if category[0] == "School_Project" %}
-                            <li><a href="/categories/schoolproject" class="">Seneca School Project ({{category[1].size}})</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul> 
-                <ul>
-                    {% for category in site.categories %}
                         {% if category[0] == "Bootcamp_Project" %}
                             <li><a href="/categories/bootcampproject" class="">UofT Cyber Security Bootcamp Project ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
-                </ul> 
+                </ul>
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "School_Project" %}
+                            <li><a href="/categories/schoolproject" class="">Seneca School Project ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>  
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Pentest_Project" %}
