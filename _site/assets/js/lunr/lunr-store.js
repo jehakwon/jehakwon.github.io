@@ -23,6 +23,12 @@ var store = [{
         "url": "/bootcamp_project/bootcampproject03/",
         "teaser": null
       },{
+        "title": "BootCamp Project (04): Automated Brute Force SQL Injection Tool",
+        "excerpt":"Project Information     Project Name: Automated Brute Force SQL Injection Tool   Date: November 24, 2022   Description: Automated brute forcing SQL injection script using Python language.   Video:           Document:             ","categories": ["Bootcamp_Project"],
+        "tags": ["Portfolio","Bootcamp_Project","Project"],
+        "url": "/bootcamp_project/bootcampproject04/",
+        "teaser": null
+      },{
         "title": "Penetration Testing Project (01): SQL Injection",
         "excerpt":"Project Information Project Name: Penetration Test - SQL Injection Date: November 02, 2022 Description: Create Simple 5 different type of Login Website and perform 5 different SQL injections Document: Data Base Connection Type 1 = Identification and authentication Together Type 2 = Identification and authentication Separate Type 3 = Identification...","categories": ["Pentest_Project"],
         "tags": ["Portfolio","Pentest_Project","Project"],

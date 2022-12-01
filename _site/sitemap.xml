@@ -17,6 +17,10 @@
 <lastmod>2016-10-23T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/bootcamp_project/bootcampproject04/</loc>
+<lastmod>2016-11-24T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/pentest_project/penetrationproject01/</loc>
 <lastmod>2022-11-02T00:00:00-04:00</lastmod>
 </url>
@@ -44,6 +48,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/year-archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/images/post/school_project/%5BFinal_Project_Report%5D%20Jeha%20Kwon.pdf</loc>
